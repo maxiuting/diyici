@@ -1,0 +1,165 @@
+@import url(m_style.css);
+.full(@w,@h,@bg){
+    width:@w;
+    height:@h;
+    background: @bg;
+}
+.box(@dir:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+.fl(@f:left) {
+    float: @f;
+}
+.fr(@r:right) {
+    float: @r;
+}
+html,body,.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    .box(vertical);
+    header{
+      .full(100%,0.88rem,#f93d50);
+      i{
+         padding-left: 0.4rem;
+          line-height: 0.88rem;
+          img{
+              .full(0.36rem,0.36rem,none);
+          }
+      }
+      p{
+          display:inline-block;
+          -webkit-box-align: center;
+          -webkit-box-pack: center;
+          text-indent: 1.8rem;
+          line-height: 0.88rem;
+          font-size: 0.34rem;
+          color: #fff;
+      }
+    
+    }
+   section{
+       -webkit-box-flex: 1;
+       overflow: auto;
+       background: #f3f3f3;
+       .d{
+                .box;
+               .full(100%,1.2rem,#fff);
+               .fl;
+               border-bottom: 1px solid #e1e1e1;
+               //margin-top: -0.15rem;
+               //background:#fff url(../img/jf.png) no-repeat 0.39rem center;
+              
+               .ii{
+                  -webkit-box-flex: 1;
+                  width: 2.72rem;
+                  height: 0.4rem;
+                 margin-left: 0.4rem;
+                  padding-top: 0.55rem;
+                  font-size: 0.25rem;
+                  color: #333333;
+               }
+               .ee{
+//                 .fl;
+                   .full(0.96rem,0.88rem,none);
+                    margin-right: 0.4rem;
+                    margin-top: 0.15rem;
+                    img{
+                        .full(0.96rem,0.88rem,none);
+                    }
+               }
+               .rr{
+//                 .fl;
+                   .full(0.96rem,0.88rem,none);
+                    margin-right: 0.2rem;
+                    margin-top: 0.5rem;
+                    font-size: 0.25rem;
+                  color: #999999;
+               }
+           }
+           .de{
+                .box;
+               .full(100%,0.86rem,#fff);
+               .fl;
+               border-bottom: 1px solid #e1e1e1;
+               //margin-top: -0.15rem;
+               //background:#fff url(../img/jf.png) no-repeat 0.39rem center;
+              
+               .ii{
+                  -webkit-box-flex: 1;
+                  width: 2.72rem;
+                  height: 0.4rem;
+                 margin-left: 0.4rem;
+                  padding-top: 0.27rem;
+                  font-size: 0.25rem;
+                  color: #333333;
+               }
+              
+               .rr{
+//                 .fl;
+                   .full(0.96rem,0.88rem,none);
+                    margin-right: 0.2rem;
+                    margin-top: 0.27rem;
+                    font-size: 0.25rem;
+                  color: #999999;
+               }
+           }
+   }
+}
+
+.zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5rem);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    .a{
+        .full(4.51rem,2.38rem,#fff);
+        overflow: hidden;
+        border-radius: 0.15rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -2.25rem;
+        top: 50%;
+        margin-top: -1.19rem;
+        .aa{
+            .full(3.57rem,0.8rem,none);
+            margin-left: 0.5rem;
+            border-bottom: 1px solid #eeeeee;
+            p{
+                line-height: 0.8rem;
+                color: #262626;
+                font-size: 0.29rem;
+                text-indent: 0.06rem;
+            }
+        }
+        .ab{
+            .full(3.57rem,0.8rem,none);
+            margin-left: 0.5rem;
+            border-bottom: 1px solid #eeeeee;
+            p{
+                line-height: 0.8rem;
+                color: #262626;
+                font-size: 0.29rem;
+                text-indent: 0.06rem;
+            }
+        }
+        .ac{
+            .full(3.57rem,0.8rem,none);
+            margin-left: 0.5rem;
+            //border-bottom: 1px solid #eeeeee;
+            p{
+                line-height: 0.8rem;
+                color: #262626;
+                font-size: 0.29rem;
+                text-indent: 0.06rem;
+            }
+        }
+    }
+}
