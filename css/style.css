@@ -1,0 +1,258 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.88rem;
+  background: #f93d50;
+}
+.container header i {
+  padding-left: 0.4rem;
+  line-height: 0.88rem;
+}
+.container header i img {
+  width: 0.36rem;
+  height: 0.36rem;
+  background: none;
+}
+.container header p {
+  display: inline-block;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  text-indent: 2.1rem;
+  line-height: 0.88rem;
+  font-size: 0.34rem;
+  color: #fff;
+}
+.container section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f3f3f3;
+}
+.container section .d {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  float: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+.container section .d .ii {
+  -webkit-box-flex: 1;
+  width: 2.72rem;
+  height: 0.4rem;
+  margin-left: 0.4rem;
+  padding-top: 0.34rem;
+  font-size: 0.25rem;
+  color: #999999;
+}
+.container section .d .w {
+  float: right;
+  background: none;
+  margin-right: 0.4rem;
+  background: url(../img/fh.png) no-repeat right center;
+  background-size: 0.14rem 0.25rem ;
+  margin-top: -0.4rem;
+  width: 0.13rem;
+  height: 0.28rem;
+}
+.container section .a {
+  width: 5.5rem;
+  height: 0.88rem;
+  background: none;
+  -webkit-box-align: center;
+  margin-top: 1rem;
+  margin-left: 0.38rem;
+}
+.container section .a p {
+  color: #d9d9d9;
+  font-size: 0.27rem;
+}
+.container section .a p a {
+  color: #757575;
+}
+.container section .ab {
+  width: 5.5rem;
+  height: 0.83rem;
+  background: none;
+  -webkit-box-align: center;
+  margin-top: 0.5rem;
+  margin-left: 0.38rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.container section .ab p {
+  line-height: 1.1rem;
+  font-size: 0.26rem;
+  color: #333333;
+}
+.container section .ab p a {
+  color: #999999;
+}
+.container section .ac {
+  width: 5.5rem;
+  height: 0.83rem;
+  background: none;
+  -webkit-box-align: center;
+  margin-left: 0.38rem;
+  border-bottom: 1px solid #fabd6d;
+}
+.container section .ac p {
+  line-height: 1.1rem;
+  font-size: 0.26rem;
+  color: #333333;
+}
+.container section .ac p a {
+  color: #999999;
+}
+.container section .ad {
+  width: 5.5rem;
+  height: 0.83rem;
+  background: none;
+  -webkit-box-align: center;
+  margin-left: 0.38rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.container section .ad p {
+  line-height: 1.1rem;
+  font-size: 0.26rem;
+  color: #333333;
+}
+.container section .ad p a {
+  color: #999999;
+}
+.container section .dd {
+  width: 5.5rem;
+  height: 0.88rem;
+  background: #f9384b;
+  -webkit-box-align: center;
+  margin-top: 2.1rem;
+  margin-left: 0.38rem;
+  border-radius: 0.15rem;
+}
+.container section .dd p {
+  text-align: center;
+  line-height: 0.88rem;
+  color: #fff;
+  font-size: 0.3rem;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.zhezhao .a {
+  width: 4.51rem;
+  height: 2.38rem;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 0.15rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -1.19rem;
+}
+.zhezhao .a .aa {
+  width: 4.51rem;
+  height: 1.48rem;
+  background: none;
+  border-bottom: 1px solid #f8f8f8;
+}
+.zhezhao .a .aa p {
+  text-align: center;
+  line-height: 1.48rem;
+  color: #6e6e6e;
+  font-size: 0.16rem;
+}
+.zhezhao .a .ab {
+  width: 2.2rem;
+  height: 0.75rem;
+  background: none;
+  margin-top: 0.1rem;
+  float: left;
+  border-right: 1px solid #f8f8f8;
+}
+.zhezhao .a .ab p {
+  text-align: center;
+  line-height: 0.75rem;
+  color: #6e6e6e;
+  font-size: 0.16rem;
+}
+.zhezhao .a .ac {
+  width: 2.2rem;
+  height: 0.75rem;
+  background: none;
+  margin-top: 0.1rem;
+  float: left;
+  border-right: 1px solid #f8f8f8;
+}
+.zhezhao .a .ac p {
+  text-align: center;
+  line-height: 0.75rem;
+  color: #ffa94b;
+  font-size: 0.16rem;
+}
+.zhezhao .a .ba {
+  width: 4.51rem;
+  height: 0.66rem;
+  background: none;
+  margin-top: 0.3rem;
+}
+.zhezhao .a .ba p {
+  text-align: center;
+  font-size: 0.27rem;
+  color: #b7b7b7;
+}
+.zhezhao .a .bc {
+  width: 4rem;
+  height: 0.63rem;
+  background: none;
+  margin-left: 0.3rem;
+  margin-top: 0.1rem;
+  border-bottom: 1px solid #ffd6a1;
+}
+.zhezhao .a .bc p {
+  text-align: center;
+  line-height: 0.6rem;
+  color: #d7d7d7;
+  font-size: 0.23rem;
+}
+.zhezhao .a .bd {
+  width: 2.2rem;
+  height: 0.75rem;
+  background: none;
+  float: left;
+  border-right: 1px solid #f8f8f8;
+}
+.zhezhao .a .bd p {
+  text-align: center;
+  line-height: 0.75rem;
+  color: #6e6e6e;
+  font-size: 0.16rem;
+}
+.zhezhao .a .be {
+  width: 2.2rem;
+  height: 0.75rem;
+  background: none;
+  float: left;
+  border-right: 1px solid #f8f8f8;
+}
+.zhezhao .a .be p {
+  text-align: center;
+  line-height: 0.75rem;
+  color: #f9384b;
+  font-size: 0.16rem;
+}
